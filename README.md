@@ -5,7 +5,7 @@ This is a personal fork based on oh-my-zsh.
 ##Linux
 
 ```bash
-$ curl -L https://raw.github.com/lxyu/lxzsh/lxyu/tools/install.sh | sh
+$ curl -L https://raw.github.com/lxyu/lxzsh/master/tools/install.sh | sh
 $ chsh -s /bin/zsh
 ```
 
@@ -13,6 +13,6 @@ $ chsh -s /bin/zsh
 ```bash
 $ brew install zsh
 $ sudo sh -c "echo '/usr/local/bin/zsh' >> /etc/shells"
-$ curl -L https://raw.github.com/lxyu/lxzsh/lxyu/tools/install.sh | sh
+$ curl -L https://raw.github.com/lxyu/lxzsh/master/tools/install.sh | sh
 $ chsh -s /usr/local/bin/zsh
 ```
