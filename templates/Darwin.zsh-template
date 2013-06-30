@@ -33,7 +33,13 @@ plugins=(
     autojump
     brew
     bundler
+    cabal
+    celery
+    colored-man
+    colorize
+    command-not-found
     compleat
+    cp
     encode64
     extract
     fabric
@@ -49,6 +55,7 @@ plugins=(
     ruby
     rvm
     supervisor
+    tmux
     vagrant
     vi-mode
 )

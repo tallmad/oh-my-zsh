@@ -33,8 +33,15 @@ plugins=(
     archlinux
     autojump
     bundler
+    cabal
+    celery
+    colored-man
+    colorize
+    command-not-found
     command-not-found
     compleat
+    cp
+    debian
     encode64
     extract
     fabric
@@ -50,8 +57,13 @@ plugins=(
     rvm
     supervisor
     systemd
+    tmux
     vagrant
     vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
+
+if [[ -f "$HOME/.zshrc.local" ]]; then
+    source $HOME/.zshrc.local
+fi
