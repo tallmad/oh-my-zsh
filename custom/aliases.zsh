@@ -27,6 +27,7 @@ alias xll='xl list --speed --progress'
 
 alias ce='cd ~/workspace/eleme'
 alias cdele='cd ~/workspace/eleme/trunk;'
-alias cdze='cd ~/workspace/eleme/zeus'
+alias cdz='cd ~/workspace/eleme/zeus'
+alias cdh='cd ~/workspace/eleme/hades'
 
 alias redis-server='redis-server /usr/local/etc/redis.conf'
