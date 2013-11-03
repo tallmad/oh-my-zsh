@@ -19,7 +19,7 @@ alias rmds='find . -name ".DS_Store" -delete'
 alias rmpyc='find . -name "*.pyc" -delete'
 
 alias wk='pkill -f "wikiserver.py"; nohup python2.6 ~/tools/wiki/wikiserver.py 1>/dev/null 2>&1 &'
-alias p='pkill -f "python local.py"; cd ~/tools/shadowsocks/; workon pyenv; nohup python local.py 1>/dev/null 2>&1 &'
+alias p='pkill -f sslocal; workon pyenv; nohup sslocal -c ~/Tools/shadowsocks/config.json 1>/dev/null 2>&1 &; cd ~; deactivate'
 alias y='youtube-dl -c -l'
 
 alias xld='xl download --continue --delete --tool aria2'
