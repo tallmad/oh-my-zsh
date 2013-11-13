@@ -6,10 +6,6 @@ if [[ -f "/usr/local/bin/brew" ]]; then
         export MANPATH=$(brew --prefix coreutils)/libexec/gnuman:$MANPATH
     fi
 
-    if [[ -d "/usr/local/share/python" ]]; then
-        export PATH=/usr/local/share/python:$PATH
-    fi
-
     if [[ -d "$(brew --prefix ruby)" ]]; then
         export PATH=$(brew --prefix ruby)/bin:$PATH
     fi
