@@ -20,7 +20,7 @@ alias rmpyc='find . -name "*.pyc" -delete'
 
 alias wk='pkill -f "wikiserver.py"; nohup python2.6 ~/tools/wiki/wikiserver.py 1>/dev/null 2>&1 &'
 alias p='pkill -f sslocal; workon py; nohup sslocal -c ~/Tools/shadowsocks/config.json 1>/dev/null 2>&1 &; cd ~; deactivate'
-alias y='youtube-dl -c -l'
+alias y='youtube-dl -c -f 137+172/137+140/best'
 
 alias xld='xl download --continue --delete --tool aria2'
 alias xll='xl list --speed --progress'
