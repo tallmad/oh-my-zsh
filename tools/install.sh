@@ -28,3 +28,6 @@ echo "\033[0;32m"' /___/____/_/ /_/  '"\033[0m"
 echo "\033[0;32m"'                   '"\033[0m"
 
 echo "\n\n \033[0;32m....is now configured.\033[0m"
+
+/usr/bin/env zsh
+source ~/.zshrc
