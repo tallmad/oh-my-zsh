@@ -8,7 +8,7 @@ export EDITOR=vim
 export CLICOLOR=1
 
 # fix gevent block bug
-export GEVENT_RESOLVER=block
+#export GEVENT_RESOLVER=block
 
 # auto verify add config git user name and email
 function git_user_verify() {
