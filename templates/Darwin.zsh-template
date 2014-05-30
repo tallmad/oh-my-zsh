@@ -51,6 +51,7 @@ plugins=(
     osx
     pip
     python
+    pyenv
     redis-cli
     ruby
     rvm
