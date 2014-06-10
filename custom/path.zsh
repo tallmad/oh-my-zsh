@@ -40,11 +40,16 @@ if [[ -d "$HOME/bin" ]]; then
     export PATH=$HOME/bin:$PATH
 fi
 
-# use autoenv to autoload project virtualenv
+# use pyenv
 if [[ -f "/usr/local/bin/brew" ]]; then
-    if [[ -d "$(brew --prefix autoenv)" ]]; then
-        source $(brew --prefix autoenv)/activate.sh
+    if [[ -d "$(brew --prefix pyenv)" ]]; then
+        export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+        export PATH=$HOME/.pyenv/bin:$PATH
+        eval "$(pyenv init -)"
+        eval "$(pyenv virtualenv-init -)"
     fi
-elif [[ -d "$HOME/.autoenv" ]]; then
-    source "$HOME/.autoenv/activate.sh"
+elif [[ -d "$HOME/.pyenv/bin" ]]; then
+    export PATH=$HOME/.pyenv/bin:$PATH
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
 fi
